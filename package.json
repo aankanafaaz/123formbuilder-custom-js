@@ -1,6 +1,6 @@
 {
 	"name": "123formbuilder-custom-js",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Custom JavaScript to prefill 123formbuilder form fields.",
 	"main": "2020-winterization-and-storage-request.js",
 	"scripts": {
