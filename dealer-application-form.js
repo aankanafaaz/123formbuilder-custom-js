@@ -78,7 +78,7 @@ var getAllDealerNames = function() {
         
         if (label != null && label != undefined){
             label = label.split('"').join("").toLowerCase();
-            if (label.startsWith("business legal name") || label.startsWith("if to dealer: dealer name")){
+            if (label.startsWith("business legal name") || label.startsWith("dealer name") || label.startsWith("if to dealer: dealer name")){
                 result.push(e.querySelector("input"));
             }            
         }
